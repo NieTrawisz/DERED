@@ -1,0 +1,943 @@
+[
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "BuildExtension",
+        "importPath": "torch.utils.cpp_extension",
+        "description": "torch.utils.cpp_extension",
+        "isExtraImport": true,
+        "detail": "torch.utils.cpp_extension",
+        "documentation": {}
+    },
+    {
+        "label": "CUDAExtension",
+        "importPath": "torch.utils.cpp_extension",
+        "description": "torch.utils.cpp_extension",
+        "isExtraImport": true,
+        "detail": "torch.utils.cpp_extension",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.utils.data",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Function",
+        "importPath": "torch.autograd",
+        "description": "torch.autograd",
+        "isExtraImport": true,
+        "detail": "torch.autograd",
+        "documentation": {}
+    },
+    {
+        "label": "Function",
+        "importPath": "torch.autograd",
+        "description": "torch.autograd",
+        "isExtraImport": true,
+        "detail": "torch.autograd",
+        "documentation": {}
+    },
+    {
+        "label": "gauss_psf_cuda",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gauss_psf_cuda",
+        "description": "gauss_psf_cuda",
+        "detail": "gauss_psf_cuda",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "exp",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "OpenEXR",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "OpenEXR",
+        "description": "OpenEXR",
+        "detail": "OpenEXR",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "trange",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "trange",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "trange",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "trange",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "trainer",
+        "description": "trainer",
+        "isExtraImport": true,
+        "detail": "trainer",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "trainer",
+        "description": "trainer",
+        "isExtraImport": true,
+        "detail": "trainer",
+        "documentation": {}
+    },
+    {
+        "label": "wandb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wandb",
+        "description": "wandb",
+        "detail": "wandb",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "cur_path",
+        "kind": 5,
+        "importPath": "gauss_psf.setup",
+        "description": "gauss_psf.setup",
+        "peekOfCode": "cur_path = os.getcwd()\nsetup(\n    name='gauss_psf_cuda',\n    ext_modules=[\n        CUDAExtension('gauss_psf_cuda', [\n            f'{cur_path}/gauss_psf/gauss_psf_cuda.cpp',\n            f'{cur_path}/gauss_psf/gauss_psf_cuda_kernel.cu',\n        ]),\n    ],\n    cmdclass={",
+        "detail": "gauss_psf.setup",
+        "documentation": {}
+    },
+    {
+        "label": "DAIFNet",
+        "kind": 6,
+        "importPath": "scripts.model.FUNet",
+        "description": "scripts.model.FUNet",
+        "peekOfCode": "class DAIFNet(nn.Module):\n    def __init__(self, input_ch, output_ch, W=16, D=4, ret_bottleneck=False):\n        super(DAIFNet, self).__init__()\n        self.conv_down = nn.ModuleList([self.convblock(input_ch, W)] + [self.convblock(W * (2**i), W * (2**i)) for i in range(1, D)])\n        self.bottleneck = nn.Sequential(\n            nn.Conv2d(W * (2**D), W * (2**D), kernel_size=3, stride=1, padding=1),\n            nn.ReLU(),\n        )\n        self.conv_up = nn.ModuleList([self.upconvblock(W * (2**i), W * (2**i) // 2) for i in range(D, 0, -1)])\n        self.conv_joint = nn.ModuleList([self.convblock(W * (2**i), W * (2**i // 2)) for i in range(D, 0, -1)])",
+        "detail": "scripts.model.FUNet",
+        "documentation": {}
+    },
+    {
+        "label": "GaussPSFFunction",
+        "kind": 6,
+        "importPath": "scripts.model.gaussPSF",
+        "description": "scripts.model.gaussPSF",
+        "peekOfCode": "class GaussPSFFunction(Function):\n    @staticmethod\n    def forward(ctx, input, weights, kernel_size=7):\n        with torch.no_grad():\n            x = torch.arange(kernel_size // 2,\n                             -kernel_size // 2,\n                             -1).view(kernel_size, 1).float().repeat(1, kernel_size).cuda()\n            y = torch.arange(kernel_size // 2,\n                             -kernel_size // 2,\n                             -1).view(1, kernel_size).float().repeat(kernel_size, 1).cuda()",
+        "detail": "scripts.model.gaussPSF",
+        "documentation": {}
+    },
+    {
+        "label": "GaussPSF",
+        "kind": 6,
+        "importPath": "scripts.model.gaussPSF",
+        "description": "scripts.model.gaussPSF",
+        "peekOfCode": "class GaussPSF(nn.Module):\n    def __init__(self, kernel_size, near=1, far=3, pixel_size=5.6e-6, scale=6):\n        super(GaussPSF, self).__init__()\n        self.kernel_size = kernel_size\n        self.near = near\n        self.far = far\n        self.pixel_size = pixel_size\n        self.scale = scale\n    def forward(self, image, depth, focal_depth, f_number, focal_length):\n        FN = f_number.view(-1, 1, 1).expand_as(depth)",
+        "detail": "scripts.model.gaussPSF",
+        "documentation": {}
+    },
+    {
+        "label": "GaussPSFFunction",
+        "kind": 6,
+        "importPath": "scripts.model.render",
+        "description": "scripts.model.render",
+        "peekOfCode": "class GaussPSFFunction(Function):\n    @staticmethod\n    def forward(ctx, input, weights, device, kernel_size=11):\n        with torch.no_grad():\n            x = torch.arange(kernel_size // 2,\n                             -kernel_size // 2,\n                             -1).view(kernel_size, 1).float().repeat(1, kernel_size).to(device)\n            y = torch.arange(kernel_size // 2,\n                             -kernel_size // 2,\n                             -1).view(1, kernel_size).float().repeat(kernel_size, 1).to(device)",
+        "detail": "scripts.model.render",
+        "documentation": {}
+    },
+    {
+        "label": "GaussPSF",
+        "kind": 6,
+        "importPath": "scripts.model.render",
+        "description": "scripts.model.render",
+        "peekOfCode": "class GaussPSF(nn.Module):\n    def __init__(self, kernel_size):\n        super(GaussPSF, self).__init__()\n        self.kernel_size = kernel_size\n    def forward(self, image, psf):\n        psf = psf.unsqueeze(1).expand_as(image).contiguous()\n        return GaussPSFFunction.apply(image, psf, image.device, self.kernel_size)",
+        "detail": "scripts.model.render",
+        "documentation": {}
+    },
+    {
+        "label": "get_parser",
+        "kind": 2,
+        "importPath": "scripts.utils.args",
+        "description": "scripts.utils.args",
+        "peekOfCode": "def get_parser():\n    parser = argparse.ArgumentParser(description='Training Config')\n    parser.add_argument('--name', '-N', type=str, required=True)\n    # Data\n    parser.add_argument('--data_path', type=str, default=\"./data/NYUv2\")\n    parser.add_argument('--dataset', type=str, choices=['NYUv2', 'NYU100', 'mobileDFD', 'DefocusNet'], default='NYUv2')\n    parser.add_argument('--shuffle', type=bool, default=True)\n    parser.add_argument('--image_num', type=int, default=5)\n    parser.add_argument('--visible_image_num', type=int, default=5)\n    parser.add_argument('--recon_all', action='store_true', default=False)",
+        "detail": "scripts.utils.args",
+        "documentation": {}
+    },
+    {
+        "label": "get_data_config",
+        "kind": 2,
+        "importPath": "scripts.utils.data_config",
+        "description": "scripts.utils.data_config",
+        "peekOfCode": "def get_data_config(args):\n    if args.dataset == 'NYUv2':\n        dataset_config = {\n            'root_dir': args.data_path,\n            'norm': args.DPT, \n            'shuffle': args.shuffle,\n            'img_num': args.image_num, \n            'visible_img': args.visible_image_num,\n            'focus_dist': [1, 3, 5, 7, 9],\n            'recon_all': args.recon_all,",
+        "detail": "scripts.utils.data_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_camera",
+        "kind": 2,
+        "importPath": "scripts.utils.data_config",
+        "description": "scripts.utils.data_config",
+        "peekOfCode": "def get_camera(args):\n    CameraModel = ThinLenCamera\n    if args.dataset == 'NYUv2':\n        camera = CameraModel(fnumber=0.5, focal_length=2.9*1e-3, pixel_size=5.6e-6)\n    elif args.dataset == 'NYU100':\n        camera = CameraModel(fnumber=1.2, focal_length=17*1e-3, pixel_size=1.2e-5)\n    elif args.dataset == 'mobileDFD':\n        camera = CameraModel(fnumber=24, focal_length=50*1e-3, pixel_size=5.6e-6)\n    elif args.dataset == 'DefocusNet':\n        camera = CameraModel(fnumber=1.2, focal_length=7.2*1e-3, pixel_size=5.6e-6)",
+        "detail": "scripts.utils.data_config",
+        "documentation": {}
+    },
+    {
+        "label": "NYUDataset",
+        "kind": 6,
+        "importPath": "scripts.utils.dataset",
+        "description": "scripts.utils.dataset",
+        "peekOfCode": "class NYUDataset(Dataset):\n    def __init__(self, root_dir, split='train', shuffle=False, img_num=1, visible_img=1, focus_dist=[0.1,.15,.3,0.7,1.5], recon_all=True, \n                    RGBFD=False, DPT=False, AIF=False, scale=2, norm=False, near=0.1, far=1., trans=False, resize=256):\n        self.root_dir = root_dir\n        self.shuffle = shuffle\n        self.img_num = img_num\n        self.visible_img = visible_img\n        self.focus_dist = torch.Tensor(focus_dist)\n        self.recon_all = recon_all\n        self.RGBFD = RGBFD",
+        "detail": "scripts.utils.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "NYUFS100Dataset",
+        "kind": 6,
+        "importPath": "scripts.utils.dataset",
+        "description": "scripts.utils.dataset",
+        "peekOfCode": "class NYUFS100Dataset(Dataset):\n    def __init__(self, root_dir, focus_dist, split='train', shuffle=True, img_num=100, visible_img=5, recon_all=True, \n                    RGBFD=False, DPT=False, AIF=False, scale=2, near=0.1, far=10.):\n        self.root_dir = root_dir\n        self.shuffle = shuffle\n        self.img_num = img_num\n        self.visible_img = visible_img\n        self.focus_dist = torch.Tensor(focus_dist)\n        self.recon_all = recon_all\n        self.RGBFD = RGBFD",
+        "detail": "scripts.utils.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "MobileDFD",
+        "kind": 6,
+        "importPath": "scripts.utils.dataset",
+        "description": "scripts.utils.dataset",
+        "peekOfCode": "class MobileDFD(Dataset):\n    def __init__(self, root_dir, recon_all=True, visible_img=5, RGBFD=True, scale=1, near=0.1, far=10.):\n        self.root_dir = root_dir\n        self.visible_img = visible_img\n        self.recon_all = recon_all\n        self.RGBFD = RGBFD\n        self.scale = scale\n        self.near = near\n        self.far = far\n        ##### Load and sort all images",
+        "detail": "scripts.utils.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "DefocusNet",
+        "kind": 6,
+        "importPath": "scripts.utils.dataset",
+        "description": "scripts.utils.dataset",
+        "peekOfCode": "class DefocusNet(Dataset):\n    def __init__(self, root_dir, split='train', shuffle=False, img_num=1, visible_img=1, focus_dist=[0.1,.15,.3,0.7,1.5], recon_all=True, \n                    RGBFD=False, DPT=False, AIF=False, norm=False, near=0.1, far=1., scale=1):\n        self.root_dir = root_dir\n        self.shuffle = shuffle\n        self.img_num = img_num\n        self.visible_img = visible_img\n        self.focus_dist = torch.Tensor(focus_dist)\n        self.recon_all = recon_all\n        self.RGBFD = RGBFD",
+        "detail": "scripts.utils.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "SSIM",
+        "kind": 6,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "class SSIM(torch.nn.Module):\n    def __init__(self, window_size=11):\n        super(SSIM, self).__init__()\n        self.window_size = window_size\n        self.channel = 1\n        self.window = create_window(window_size, self.channel)\n    def forward(self, img1, img2):\n        (_, channel, _, _) = img1.size()\n        if channel == self.channel and self.window.data.type() == img1.data.type():\n            window = self.window",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "AVERAGE",
+        "kind": 6,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "class AVERAGE(nn.Module):\n    def __init__(self, window_size=7, size_average=False):\n        super(AVERAGE, self).__init__()\n        self.window_size = window_size\n        self.size_average = size_average\n        self.channel = 1\n        self.window = create_window_avg(window_size, self.channel)\n    def forward(self, image):\n        mu = F.avg_pool2d(image, 7, 1, self.window_size // 2, count_include_pad=False)\n        return mu",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "Sharpness",
+        "kind": 6,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "class Sharpness(nn.Module):\n    def __init__(self):\n        super(Sharpness, self).__init__()\n        self.AVG = AVERAGE()\n    def gradient(self, inp):\n        D_dy = inp[:, :, :, :] - F.pad(inp[:, :, :-1, :], (0, 0, 1, 0))\n        D_dx = inp[:, :, :, :] - F.pad(inp[:, :, :, :-1], (1, 0, 0, 0))\n        return D_dx, D_dy\n    def sharpness(self, image):\n        grad = self.gradient(image)",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "BlurMetric",
+        "kind": 6,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "class BlurMetric(nn.Module):\n    def __init__(self, loss_fn = 'mse', device='cpu', alpha=0.8, _lambda=0.2, beta=1., sigma=1., kernel_size=7):\n        super().__init__()\n        if loss_fn == 'mse':\n            self.loss = nn.MSELoss()\n        elif loss_fn == 'recon':\n            self.ssim = SSIM()\n            self.l1 = nn.L1Loss()\n            self.loss = lambda x, y : alpha * (1 - self.ssim(x, y)).mean()/2 + (1 - alpha) * self.l1(x, y)\n        elif loss_fn == 'l1':",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "EvalRecon",
+        "kind": 6,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "class EvalRecon(nn.Module):\n    def __init__(self, device):\n        super(EvalRecon, self).__init__()\n        self.psnr = BlurMetric('psnr', device)\n        self.ssim = BlurMetric('ssim')\n        self.mse = BlurMetric('mse')\n        self.sharp = BlurMetric('sharp')\n    def forward(self, recon, target):\n        _psnr = self.psnr(recon, target)\n        _ssim = self.ssim(recon, target)",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "Smoothness",
+        "kind": 6,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "class Smoothness(nn.Module):\n    def __init__(self, beta=1.):\n        super(Smoothness, self).__init__()\n        self.beta = beta\n    def forward(self, dpt, target):\n        gt_grad = self.gradient(target)\n        gt_grad_x_exp = torch.exp(-gt_grad[0].abs()) * self.beta\n        gt_grad_y_exp = torch.exp(-gt_grad[1].abs()) * self.beta\n        dx, dy = self.gradient(dpt.unsqueeze(1))\n        dD_x = dx.abs() * gt_grad_x_exp",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "Blur",
+        "kind": 6,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "class Blur(nn.Module):\n    def __init__(self, sigma, size, beta=0.25):\n        super(Blur, self).__init__()\n        self.kernel = self.gen_LoG_kernel(sigma, size)\n        self.beta = beta\n    def forward(self, img, _):\n        B, C, H, W = img.shape\n        img_lap = F.conv2d(img, self.kernel.to(torch.get_device(img)), padding='same')\n        blur_loss = - torch.log (torch.sum(img_lap ** 2, dim=[1, 2, 3]) / (H*W - torch.mean(img, dim=[1,2,3])**2) + 1e-8)\n        return blur_loss.mean() * self.beta",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "gaussian",
+        "kind": 2,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "def gaussian(window_size, sigma):\n    gauss = torch.Tensor([exp(-(x - window_size // 2) ** 2 / float(2 * sigma ** 2)) for x in range(window_size)])\n    return gauss / gauss.sum()\ndef create_window(window_size, channel, mu=1.5):\n    _1D_window = gaussian(window_size, mu).unsqueeze(1)\n    _2D_window = _1D_window.mm(_1D_window.t()).float().unsqueeze(0).unsqueeze(0)\n    window = _2D_window.expand(channel, 1, window_size, window_size).contiguous()\n    window.requires_grad = False\n    return window\ndef create_window_avg(window_size, channel):",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "create_window",
+        "kind": 2,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "def create_window(window_size, channel, mu=1.5):\n    _1D_window = gaussian(window_size, mu).unsqueeze(1)\n    _2D_window = _1D_window.mm(_1D_window.t()).float().unsqueeze(0).unsqueeze(0)\n    window = _2D_window.expand(channel, 1, window_size, window_size).contiguous()\n    window.requires_grad = False\n    return window\ndef create_window_avg(window_size, channel):\n    _2D_window = torch.ones(window_size, window_size).float().unsqueeze(0).unsqueeze(0) / (window_size ** 2)\n    window = _2D_window.expand(channel, 1, window_size, window_size).contiguous()\n    window.requires_grad = False",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "create_window_avg",
+        "kind": 2,
+        "importPath": "scripts.utils.loss",
+        "description": "scripts.utils.loss",
+        "peekOfCode": "def create_window_avg(window_size, channel):\n    _2D_window = torch.ones(window_size, window_size).float().unsqueeze(0).unsqueeze(0) / (window_size ** 2)\n    window = _2D_window.expand(channel, 1, window_size, window_size).contiguous()\n    window.requires_grad = False\n    return window\ndef _ssim(img1, img2, window, window_size, channel):\n    mu1 = F.conv2d(img1, window, padding=window_size // 2, groups=channel)\n    mu2 = F.conv2d(img2, window, padding=window_size // 2, groups=channel)\n    mu1_sq = mu1.pow(2)\n    mu2_sq = mu2.pow(2)",
+        "detail": "scripts.utils.loss",
+        "documentation": {}
+    },
+    {
+        "label": "read_dpt",
+        "kind": 2,
+        "importPath": "scripts.utils.preprocess_defocusnet",
+        "description": "scripts.utils.preprocess_defocusnet",
+        "peekOfCode": "def read_dpt(img_dpt_path):\n    # pt = Imath.PixelType(Imath.PixelType.HALF)  # FLOAT HALF\n    dpt_img = OpenEXR.InputFile(img_dpt_path)\n    dw = dpt_img.header()['dataWindow']\n    size = (dw.max.x - dw.min.x + 1, dw.max.y - dw.min.y + 1)\n    (r, g, b) = dpt_img.channels(\"RGB\")\n    dpt = np.frombuffer(r, dtype=np.float16)\n    dpt.shape = (size[1], size[0])\n    return dpt\nroot_dir = \"./data/DefocusNet\"",
+        "detail": "scripts.utils.preprocess_defocusnet",
+        "documentation": {}
+    },
+    {
+        "label": "root_dir",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_defocusnet",
+        "description": "scripts.utils.preprocess_defocusnet",
+        "peekOfCode": "root_dir = \"./data/DefocusNet\"\nimglist_dpt = [f for f in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, f)) and f[-7:] == \"Dpt.exr\"]\nfor dpt in tqdm(imglist_dpt):\n    prefix = dpt.split('.')[0]\n    img_dpt_path = os.path.join(root_dir, dpt)\n    depth = read_dpt(img_dpt_path)\n    save_path = os.path.join(root_dir, prefix+'.npy')\n    with open(save_path, 'wb') as f:\n        np.save(f, depth[:, :, None])\nimglist_aif = [f for f in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, f)) and f[-7:] == \"Aif.tif\"]",
+        "detail": "scripts.utils.preprocess_defocusnet",
+        "documentation": {}
+    },
+    {
+        "label": "imglist_dpt",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_defocusnet",
+        "description": "scripts.utils.preprocess_defocusnet",
+        "peekOfCode": "imglist_dpt = [f for f in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, f)) and f[-7:] == \"Dpt.exr\"]\nfor dpt in tqdm(imglist_dpt):\n    prefix = dpt.split('.')[0]\n    img_dpt_path = os.path.join(root_dir, dpt)\n    depth = read_dpt(img_dpt_path)\n    save_path = os.path.join(root_dir, prefix+'.npy')\n    with open(save_path, 'wb') as f:\n        np.save(f, depth[:, :, None])\nimglist_aif = [f for f in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, f)) and f[-7:] == \"Aif.tif\"]\nfor img in tqdm(imglist_aif):",
+        "detail": "scripts.utils.preprocess_defocusnet",
+        "documentation": {}
+    },
+    {
+        "label": "imglist_aif",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_defocusnet",
+        "description": "scripts.utils.preprocess_defocusnet",
+        "peekOfCode": "imglist_aif = [f for f in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, f)) and f[-7:] == \"Aif.tif\"]\nfor img in tqdm(imglist_aif):\n    prefix = img.split('.')[0]\n    img_path = os.path.join(root_dir, img)\n    im = Image.open(img_path)\n    save_path = os.path.join(root_dir, prefix+'.png')\n    im.save(save_path)\nimglist_all = [f for f in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, f)) and f[-7:] == \"All.tif\"]\nfor img in tqdm(imglist_all):\n    prefix = img.split('.')[0]",
+        "detail": "scripts.utils.preprocess_defocusnet",
+        "documentation": {}
+    },
+    {
+        "label": "imglist_all",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_defocusnet",
+        "description": "scripts.utils.preprocess_defocusnet",
+        "peekOfCode": "imglist_all = [f for f in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, f)) and f[-7:] == \"All.tif\"]\nfor img in tqdm(imglist_all):\n    prefix = img.split('.')[0]\n    img_path = os.path.join(root_dir, img)\n    im = Image.open(img_path)\n    save_path = os.path.join(root_dir, prefix+'.png')\n    im.save(save_path)",
+        "detail": "scripts.utils.preprocess_defocusnet",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_mobileDepth",
+        "description": "scripts.utils.preprocess_mobileDepth",
+        "peekOfCode": "ROOT = './data' # contain both aligned and src if download from https://www.supasorn.com/dffdownload.html\nALIGNED_PTH = ROOT + '/Aligned/' # path to  \"Photos, Calbration, Results: Download\" files\nSRC_PTH = ROOT + '/calibration/' # path to \"Aligned focus stack: Download\" files\nDUMP_PTH = ROOT + '/mobileDFD/' # Place to save\nmap_dict = {'metals': 'metal', 'largemotion':'GTLarge', 'smallmotion':'GTSmall', 'zeromotion': 'GT'}\nimg_folders = os.listdir(SRC_PTH)\nprint(img_folders)\nfor root, dir, files in os.walk(ALIGNED_PTH):\n    for d in dir:\n        if d in img_folders or d in map_dict:",
+        "detail": "scripts.utils.preprocess_mobileDepth",
+        "documentation": {}
+    },
+    {
+        "label": "ALIGNED_PTH",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_mobileDepth",
+        "description": "scripts.utils.preprocess_mobileDepth",
+        "peekOfCode": "ALIGNED_PTH = ROOT + '/Aligned/' # path to  \"Photos, Calbration, Results: Download\" files\nSRC_PTH = ROOT + '/calibration/' # path to \"Aligned focus stack: Download\" files\nDUMP_PTH = ROOT + '/mobileDFD/' # Place to save\nmap_dict = {'metals': 'metal', 'largemotion':'GTLarge', 'smallmotion':'GTSmall', 'zeromotion': 'GT'}\nimg_folders = os.listdir(SRC_PTH)\nprint(img_folders)\nfor root, dir, files in os.walk(ALIGNED_PTH):\n    for d in dir:\n        if d in img_folders or d in map_dict:\n            if d in map_dict:",
+        "detail": "scripts.utils.preprocess_mobileDepth",
+        "documentation": {}
+    },
+    {
+        "label": "SRC_PTH",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_mobileDepth",
+        "description": "scripts.utils.preprocess_mobileDepth",
+        "peekOfCode": "SRC_PTH = ROOT + '/calibration/' # path to \"Aligned focus stack: Download\" files\nDUMP_PTH = ROOT + '/mobileDFD/' # Place to save\nmap_dict = {'metals': 'metal', 'largemotion':'GTLarge', 'smallmotion':'GTSmall', 'zeromotion': 'GT'}\nimg_folders = os.listdir(SRC_PTH)\nprint(img_folders)\nfor root, dir, files in os.walk(ALIGNED_PTH):\n    for d in dir:\n        if d in img_folders or d in map_dict:\n            if d in map_dict:\n                _d = map_dict[d]",
+        "detail": "scripts.utils.preprocess_mobileDepth",
+        "documentation": {}
+    },
+    {
+        "label": "DUMP_PTH",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_mobileDepth",
+        "description": "scripts.utils.preprocess_mobileDepth",
+        "peekOfCode": "DUMP_PTH = ROOT + '/mobileDFD/' # Place to save\nmap_dict = {'metals': 'metal', 'largemotion':'GTLarge', 'smallmotion':'GTSmall', 'zeromotion': 'GT'}\nimg_folders = os.listdir(SRC_PTH)\nprint(img_folders)\nfor root, dir, files in os.walk(ALIGNED_PTH):\n    for d in dir:\n        if d in img_folders or d in map_dict:\n            if d in map_dict:\n                _d = map_dict[d]\n            else:",
+        "detail": "scripts.utils.preprocess_mobileDepth",
+        "documentation": {}
+    },
+    {
+        "label": "map_dict",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_mobileDepth",
+        "description": "scripts.utils.preprocess_mobileDepth",
+        "peekOfCode": "map_dict = {'metals': 'metal', 'largemotion':'GTLarge', 'smallmotion':'GTSmall', 'zeromotion': 'GT'}\nimg_folders = os.listdir(SRC_PTH)\nprint(img_folders)\nfor root, dir, files in os.walk(ALIGNED_PTH):\n    for d in dir:\n        if d in img_folders or d in map_dict:\n            if d in map_dict:\n                _d = map_dict[d]\n            else:\n                _d = d",
+        "detail": "scripts.utils.preprocess_mobileDepth",
+        "documentation": {}
+    },
+    {
+        "label": "img_folders",
+        "kind": 5,
+        "importPath": "scripts.utils.preprocess_mobileDepth",
+        "description": "scripts.utils.preprocess_mobileDepth",
+        "peekOfCode": "img_folders = os.listdir(SRC_PTH)\nprint(img_folders)\nfor root, dir, files in os.walk(ALIGNED_PTH):\n    for d in dir:\n        if d in img_folders or d in map_dict:\n            if d in map_dict:\n                _d = map_dict[d]\n            else:\n                _d = d\n            shutil.copytree('{}/{}'.format(root, d), DUMP_PTH + d)",
+        "detail": "scripts.utils.preprocess_mobileDepth",
+        "documentation": {}
+    },
+    {
+        "label": "ThinLenCamera",
+        "kind": 6,
+        "importPath": "scripts.utils.util_func",
+        "description": "scripts.utils.util_func",
+        "peekOfCode": "class ThinLenCamera():\n    def __init__(self, fnumber=0.5, focal_length=2.9*1e-3, sensor_size=3.1*1e-3, img_size=256, pixel_size=None):\n        self.focal_length = focal_length\n        self.D = self.focal_length / fnumber\n        self.pixel_size = pixel_size\n        if not self.pixel_size:\n            self.pixel_size = sensor_size / img_size\n    def getCoC(self, dpt, focus_dist):\n        # dpt : BxFS H W\n        # focus_dist : BxFS H W",
+        "detail": "scripts.utils.util_func",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "scripts.utils.util_func",
+        "description": "scripts.utils.util_func",
+        "peekOfCode": "def load_data(dataset_config, dataset, BS, n_shot=-1, indices=None):\n    if dataset == 'NYU100':\n        train_dl, valid_dl, test_dl = _load_NYU_data(dataset_config, BS, NYU100=True)\n    elif dataset == 'DefocusNet':\n        train_dl, valid_dl, test_dl = _load_defocus_data(dataset_config, BS)\n    elif dataset == 'mobileDFD':\n        train_dl, valid_dl, test_dl = _load_mDFD_data(dataset_config, BS, n_shot=n_shot, sel_indices=indices)\n    else:\n        train_dl, valid_dl, test_dl = _load_NYU_data(dataset_config, BS)\n    return train_dl, valid_dl, test_dl",
+        "detail": "scripts.utils.util_func",
+        "documentation": {}
+    },
+    {
+        "label": "dpt_post_op",
+        "kind": 2,
+        "importPath": "scripts.utils.util_func",
+        "description": "scripts.utils.util_func",
+        "peekOfCode": "def dpt_post_op(dpt, args):\n    B = dpt.shape[0]\n    if args.dpt_post_op == 'clip':\n        dpt = torch.clip(dpt, 0, args.camera_far)\n    elif args.dpt_post_op == 'norm':\n        dpt_local_min = torch.min(dpt.view(B, -1), dim=1)[0].view(B, 1, 1)\n        dpt_local_max = torch.max(dpt.view(B, -1), dim=1)[0].view(B, 1, 1)\n        if args.normalize_dpt:\n            norm_dpt_ = (dpt - dpt_local_min)/(dpt_local_max - dpt_local_min + 1e-8)\n        else:",
+        "detail": "scripts.utils.util_func",
+        "documentation": {}
+    },
+    {
+        "label": "eval_depth",
+        "kind": 2,
+        "importPath": "scripts.utils.util_func",
+        "description": "scripts.utils.util_func",
+        "peekOfCode": "def eval_depth(pred, gt, msk=None):\n    error = torch.abs(gt - pred)\n    if msk is None:\n        AbsRel = torch.mean(error / gt, dim=[1, 2, 3])\n        SqRel = torch.mean(error ** 2 / gt, dim=[1, 2, 3])\n        RMSE = torch.sqrt(torch.mean(error ** 2, dim=[1, 2, 3]))\n        RMSE_log = torch.sqrt(torch.mean(torch.abs(torch.log10(gt+1e-8) - torch.log10(pred+1e-8)) ** 2, dim=[1, 2, 3]))\n        gt_pred = gt/(pred+1e-8)\n        pred_gt = pred/(gt+1e-8)\n        acc = torch.max(gt_pred, pred_gt)",
+        "detail": "scripts.utils.util_func",
+        "documentation": {}
+    },
+    {
+        "label": "eval_aif",
+        "kind": 2,
+        "importPath": "scripts.utils.util_func",
+        "description": "scripts.utils.util_func",
+        "peekOfCode": "def eval_aif(inp):\n    dy = inp[:, :, :, :] - F.pad(inp[:, :, :-1, :], (0, 0, 1, 0))\n    dx = inp[:, :, :, :] - F.pad(inp[:, :, :, :-1], (1, 0, 0, 0))\n    MG = torch.mean(torch.sqrt((dx ** 2 + dy ** 2)/2), dim=[1,2,3]) # Large -> Better\n    SF = torch.sqrt(torch.mean(dx ** 2, dim=[1,2,3]) + torch.mean(dy ** 2, dim=[1,2,3])) # Large -> Better\n    return MG.mean(), SF.mean()",
+        "detail": "scripts.utils.util_func",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "kind": 5,
+        "importPath": "scripts.gen_nyuv2_defocus",
+        "description": "scripts.gen_nyuv2_defocus",
+        "peekOfCode": "render = GaussPSF(7)\nrender.cuda()\ncamera = ThinLenCamera(8, focal_length=50e-3, pixel_size=1.2e-5)\ndata_path = './data/NYUv2'\nfd_list = [1, 1.5, 2.5, 4, 6]\nfor split in ['train', 'test']:\n    rgb_path = os.path.join(data_path,f'{split}_rgb')\n    if not os.path.exists(rgb_path):\n        os.makedirs(rgb_path)\n    dpt_path = os.path.join(data_path, f'{split}_depth')",
+        "detail": "scripts.gen_nyuv2_defocus",
+        "documentation": {}
+    },
+    {
+        "label": "camera",
+        "kind": 5,
+        "importPath": "scripts.gen_nyuv2_defocus",
+        "description": "scripts.gen_nyuv2_defocus",
+        "peekOfCode": "camera = ThinLenCamera(8, focal_length=50e-3, pixel_size=1.2e-5)\ndata_path = './data/NYUv2'\nfd_list = [1, 1.5, 2.5, 4, 6]\nfor split in ['train', 'test']:\n    rgb_path = os.path.join(data_path,f'{split}_rgb')\n    if not os.path.exists(rgb_path):\n        os.makedirs(rgb_path)\n    dpt_path = os.path.join(data_path, f'{split}_depth')\n    if not os.path.exists(dpt_path):\n        os.makedirs(dpt_path)",
+        "detail": "scripts.gen_nyuv2_defocus",
+        "documentation": {}
+    },
+    {
+        "label": "data_path",
+        "kind": 5,
+        "importPath": "scripts.gen_nyuv2_defocus",
+        "description": "scripts.gen_nyuv2_defocus",
+        "peekOfCode": "data_path = './data/NYUv2'\nfd_list = [1, 1.5, 2.5, 4, 6]\nfor split in ['train', 'test']:\n    rgb_path = os.path.join(data_path,f'{split}_rgb')\n    if not os.path.exists(rgb_path):\n        os.makedirs(rgb_path)\n    dpt_path = os.path.join(data_path, f'{split}_depth')\n    if not os.path.exists(dpt_path):\n        os.makedirs(dpt_path)\n    fs_path = os.path.join(data_path, f'{split}_fs{len(fd_list)}')",
+        "detail": "scripts.gen_nyuv2_defocus",
+        "documentation": {}
+    },
+    {
+        "label": "fd_list",
+        "kind": 5,
+        "importPath": "scripts.gen_nyuv2_defocus",
+        "description": "scripts.gen_nyuv2_defocus",
+        "peekOfCode": "fd_list = [1, 1.5, 2.5, 4, 6]\nfor split in ['train', 'test']:\n    rgb_path = os.path.join(data_path,f'{split}_rgb')\n    if not os.path.exists(rgb_path):\n        os.makedirs(rgb_path)\n    dpt_path = os.path.join(data_path, f'{split}_depth')\n    if not os.path.exists(dpt_path):\n        os.makedirs(dpt_path)\n    fs_path = os.path.join(data_path, f'{split}_fs{len(fd_list)}')\n    if not os.path.exists(fs_path):",
+        "detail": "scripts.gen_nyuv2_defocus",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "scripts.simple_inference",
+        "description": "scripts.simple_inference",
+        "peekOfCode": "cap = cv2.VideoCapture(\"dron_0_20240718_134752_047E-44-65.mkv\")\n# Check if camera opened successfully\nif cap.isOpened() == False:\n    print(\"Error opening video file\")\nwidth = cap.get(cv2.CAP_PROP_FRAME_WIDTH)  # float `width`\nheight = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)  # float `height`\nmodel = DAIFNet(4, 4)\nmodel.cuda()\nmodel_dict = torch.load(\"best-model.pth\")\nstate_dict = model_dict[\"model\"]",
+        "detail": "scripts.simple_inference",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "scripts.simple_inference",
+        "description": "scripts.simple_inference",
+        "peekOfCode": "width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)  # float `width`\nheight = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)  # float `height`\nmodel = DAIFNet(4, 4)\nmodel.cuda()\nmodel_dict = torch.load(\"best-model.pth\")\nstate_dict = model_dict[\"model\"]\noptim_dict = model_dict[\"optimizer\"]\nmodel.load_state_dict(state_dict)\n# Read until video is completed\nwhile cap.isOpened():",
+        "detail": "scripts.simple_inference",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "scripts.simple_inference",
+        "description": "scripts.simple_inference",
+        "peekOfCode": "height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)  # float `height`\nmodel = DAIFNet(4, 4)\nmodel.cuda()\nmodel_dict = torch.load(\"best-model.pth\")\nstate_dict = model_dict[\"model\"]\noptim_dict = model_dict[\"optimizer\"]\nmodel.load_state_dict(state_dict)\n# Read until video is completed\nwhile cap.isOpened():\n    # Capture frame-by-frame",
+        "detail": "scripts.simple_inference",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "scripts.simple_inference",
+        "description": "scripts.simple_inference",
+        "peekOfCode": "model = DAIFNet(4, 4)\nmodel.cuda()\nmodel_dict = torch.load(\"best-model.pth\")\nstate_dict = model_dict[\"model\"]\noptim_dict = model_dict[\"optimizer\"]\nmodel.load_state_dict(state_dict)\n# Read until video is completed\nwhile cap.isOpened():\n    # Capture frame-by-frame\n    ret, frame = cap.read()",
+        "detail": "scripts.simple_inference",
+        "documentation": {}
+    },
+    {
+        "label": "model_dict",
+        "kind": 5,
+        "importPath": "scripts.simple_inference",
+        "description": "scripts.simple_inference",
+        "peekOfCode": "model_dict = torch.load(\"best-model.pth\")\nstate_dict = model_dict[\"model\"]\noptim_dict = model_dict[\"optimizer\"]\nmodel.load_state_dict(state_dict)\n# Read until video is completed\nwhile cap.isOpened():\n    # Capture frame-by-frame\n    ret, frame = cap.read()\n    if ret == True:\n        frame = cv2.resize(frame, (2048, 1024))",
+        "detail": "scripts.simple_inference",
+        "documentation": {}
+    },
+    {
+        "label": "state_dict",
+        "kind": 5,
+        "importPath": "scripts.simple_inference",
+        "description": "scripts.simple_inference",
+        "peekOfCode": "state_dict = model_dict[\"model\"]\noptim_dict = model_dict[\"optimizer\"]\nmodel.load_state_dict(state_dict)\n# Read until video is completed\nwhile cap.isOpened():\n    # Capture frame-by-frame\n    ret, frame = cap.read()\n    if ret == True:\n        frame = cv2.resize(frame, (2048, 1024))\n        image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)",
+        "detail": "scripts.simple_inference",
+        "documentation": {}
+    },
+    {
+        "label": "optim_dict",
+        "kind": 5,
+        "importPath": "scripts.simple_inference",
+        "description": "scripts.simple_inference",
+        "peekOfCode": "optim_dict = model_dict[\"optimizer\"]\nmodel.load_state_dict(state_dict)\n# Read until video is completed\nwhile cap.isOpened():\n    # Capture frame-by-frame\n    ret, frame = cap.read()\n    if ret == True:\n        frame = cv2.resize(frame, (2048, 1024))\n        image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)\n        image_rgb = image_rgb.astype(np.float32) / 255.0",
+        "detail": "scripts.simple_inference",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "parser = get_parser()\nargs = parser.parse_args()\nif args.manual_seed != None:\n    print(f'Manual Seed: {args.manual_seed}')\n    torch.manual_seed(args.manual_seed)\n    np.random.seed(args.manual_seed)\nprint(f'Running Experiment {args.name}')\nif args.log:\n    wandb.init(project=\"SS-DFD-Formal\", dir='..', name=args.name)\n    wandb.config.update(args)",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "args = parser.parse_args()\nif args.manual_seed != None:\n    print(f'Manual Seed: {args.manual_seed}')\n    torch.manual_seed(args.manual_seed)\n    np.random.seed(args.manual_seed)\nprint(f'Running Experiment {args.name}')\nif args.log:\n    wandb.init(project=\"SS-DFD-Formal\", dir='..', name=args.name)\n    wandb.config.update(args)\ndataset_config = get_data_config(args)",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "dataset_config",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "dataset_config = get_data_config(args)\ndataloaders = load_data(dataset_config, args.dataset, args.BS)\nmodel = DAIFNet(4, 4, args.W, args.D)\nrender = GaussPSF(args.window_size)\ncamera = get_camera(args)\nif args.use_cuda:\n    model.cuda()\n    render.cuda()\noptimizer = torch.optim.AdamW(\n            model.parameters(),",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "dataloaders",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "dataloaders = load_data(dataset_config, args.dataset, args.BS)\nmodel = DAIFNet(4, 4, args.W, args.D)\nrender = GaussPSF(args.window_size)\ncamera = get_camera(args)\nif args.use_cuda:\n    model.cuda()\n    render.cuda()\noptimizer = torch.optim.AdamW(\n            model.parameters(),\n            lr=args.lr,",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "model = DAIFNet(4, 4, args.W, args.D)\nrender = GaussPSF(args.window_size)\ncamera = get_camera(args)\nif args.use_cuda:\n    model.cuda()\n    render.cuda()\noptimizer = torch.optim.AdamW(\n            model.parameters(),\n            lr=args.lr,\n            weight_decay=args.wd)",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "render = GaussPSF(args.window_size)\ncamera = get_camera(args)\nif args.use_cuda:\n    model.cuda()\n    render.cuda()\noptimizer = torch.optim.AdamW(\n            model.parameters(),\n            lr=args.lr,\n            weight_decay=args.wd)\nscheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, len(dataloaders[0])*args.epoch)",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "camera",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "camera = get_camera(args)\nif args.use_cuda:\n    model.cuda()\n    render.cuda()\noptimizer = torch.optim.AdamW(\n            model.parameters(),\n            lr=args.lr,\n            weight_decay=args.wd)\nscheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, len(dataloaders[0])*args.epoch)\ntrainer = Trainer(dataloaders, model, render, camera, optimizer, scheduler, args)",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "optimizer",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "optimizer = torch.optim.AdamW(\n            model.parameters(),\n            lr=args.lr,\n            weight_decay=args.wd)\nscheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, len(dataloaders[0])*args.epoch)\ntrainer = Trainer(dataloaders, model, render, camera, optimizer, scheduler, args)\nif args.continue_from != '':\n    trainer.load_checkpoint(args.continue_from)\nif not args.eval:\n    trainer.train()",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, len(dataloaders[0])*args.epoch)\ntrainer = Trainer(dataloaders, model, render, camera, optimizer, scheduler, args)\nif args.continue_from != '':\n    trainer.load_checkpoint(args.continue_from)\nif not args.eval:\n    trainer.train()\ntrainer.eval_model()",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "scripts.train",
+        "description": "scripts.train",
+        "peekOfCode": "trainer = Trainer(dataloaders, model, render, camera, optimizer, scheduler, args)\nif args.continue_from != '':\n    trainer.load_checkpoint(args.continue_from)\nif not args.eval:\n    trainer.train()\ntrainer.eval_model()",
+        "detail": "scripts.train",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "kind": 6,
+        "importPath": "scripts.trainer",
+        "description": "scripts.trainer",
+        "peekOfCode": "class Trainer():\n    def __init__(self, dataloaders, model, render, camera, optimizer, scheduler, args):\n        self.train_dl = dataloaders[0]\n        self.valid_dl = dataloaders[1]\n        self.test_dl = dataloaders[2]\n        self.model = model \n        self.render = render\n        self.optimizer = optimizer \n        self.scheduler = scheduler\n        self.criterion = dict(l1=BlurMetric('l1'), smooth=BlurMetric('smooth', beta=args.sm_loss_beta), sharp=BlurMetric('sharp'), ",
+        "detail": "scripts.trainer",
+        "documentation": {}
+    }
+]
